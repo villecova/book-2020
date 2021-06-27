@@ -1,0 +1,165 @@
+/*
+
+font-family: 'Changa', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+#0F4C59
+#39A2DB
+#A2DBFA
+#E8F0F2
+
+*/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* TOP SECTION ----------------------------------------------------- */
+
+/* NAVBAR */
+
+.navbar {
+	padding: 16px 35px;
+	background-color: white;
+}
+
+.main-menu {
+	text-align: center;
+	color: #0F4C59 !important;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 1.4rem;
+	padding: 25px 0;
+
+}
+
+.main-menu:hover {
+	color: #39A2DB !important;
+
+}
+
+/* HOME CONTAINER */
+
+.home-container {
+	margin-top: 75.281px;
+	background-color: #0F4C59;
+	height: 661px;
+	text-align: center;
+	padding: 10% 15%;
+}
+
+.logo-home {
+	height: 130px;
+	margin-top: 15px;
+}
+
+.home-container h4 {
+	font-size: 15px;
+	font-weight: 200;
+	color: #A2DBFA;
+	padding-top: 40px;
+}
+
+.home-container h1 {
+	font-weight: 600;
+	color: #39A2DB;
+	font-size: 36px;
+	padding-top: 15px;
+}
+
+.home-container h2 {
+	font-family: 'Changa', sans-serif;
+	color: white;
+	font-weight: 500;
+	font-size: 27px;
+	padding-top: 8px;
+
+}
+
+.home-container p {
+	font-size: 13px;
+	font-weight: 300;
+	color: #E8F0F2;
+	line-height: 25px;
+	padding: 15px 9px 20px;
+	margin-bottom: 0;
+}
+
+.button-home {
+	border-style: none;
+	margin: 10px 30px;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 5px;
+	width: 133px;
+	color: white;
+	background-color: transparent;
+}
+
+.button-home:hover {
+	background-color: white;
+	color: #0F4C59 ;
+	font-weight: 600;
+}
+
+/* SKILLS SECTION ----------------------------------------------------- */
+
+
+.skills-container {
+	padding: 7% 12%;
+}
+
+.skill-container {
+	background-color: #F4F4F4;
+	border-radius: 15px;
+	height: 365px;
+	margin: 25px 0 40px;
+	text-align: center;
+	color: #0F4C59;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.title {
+	font-family: 'Changa', sans-serif;
+	font-weight: 500;
+	font-size: 48px;
+	text-align: left;
+	color: #0F4C59;
+	padding-bottom: 35px;
+}
+
+.subtitle-container {
+	text-align: center;
+}
+
+.subtitle {
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	color: #0F4C59;
+	margin-bottom: 0;
+
+}
+
+.graphic-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
