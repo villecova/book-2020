@@ -107,7 +107,7 @@ body {
 
 .skills-container {
 	padding: 7% 12%;
-	padding-top: 75.281px;
+	padding-top: 90px;
 }
 
 .skill-container {
@@ -167,6 +167,7 @@ body {
 .projects-container {
 	padding: 7% 12%;
 	background-color: #0F4C59;
+	padding-top: 90px;
 }
 
 .projects-container h1 {
@@ -210,6 +211,7 @@ body {
 .contact-container {
 	padding: 7% 12%;
 	text-align: center;
+	padding-top: 90px;
 }
 
 .logo-contact {
@@ -273,11 +275,56 @@ textarea {
 	height: 60px;
 }
 
+/* PAGES SECTION ----------------------------------------------------- */
+
+/* Graphic Design */
+
+.gd-home-container {
+	background-color: white;
+	margin-top: 75.281px;
+/*	height: 661px;*/
+	text-align: center;
+	padding: 10% 15%;
+	text-align: center;
+}
+
+.btn-group a {
+	font-size: 10px;
+	border: 2px solid #0F4C59;
+}
+.projects-button {
+	border-style: none;
+	/*margin: 18px 30px 15px;*/
+	border: 3px solid #0F4C59;
+	border-radius: 25px;
+	padding: 4px 10px;
+	width: 220px;
+	font-weight: 600;
+	font-size: 18px;
+	color: #0F4C59;
+	background-color: transparent;
+}
+
+.projects-button:hover {
+	background-color:  #0F4C59;
+	color: white ;
+	font-weight: 600;
+}
+
+.btn.active {
+	background-color:  #0F4C59;
+	color: white ;
+	font-weight: 600;
+}
+
+
+
+<!--------------------------  -------------------------->
 
 
 
 
-
+<!--------------------------  -------------------------->
 
 
 
