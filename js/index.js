@@ -12,10 +12,69 @@
 
 // });
 
-var typed = new Typed('.element', {
-  strings: ["Graphic Designer.", "Web Designer.", "Web Developer."],
-  typeSpeed: 120,
-  backSpeed: 50,
-  loop: true,
-  loopCount: Infinity
+// alert("funciona");
+
+// const navLinks = document.querySelectorAll('.nav-item')
+// const menuToggle = document.getElementById('button-burguer')
+// const bsCollapse = new bootstrap.Collapse(menuToggle)
+
+// navLinks.forEach((l) => {
+//     l.addEventListener('click', () => { bsCollapse.toggle() })
+// })
+
+$("li").on("click", function () {
+  $('.navbar-collapse').collapse('hide');
 });
+
+
+if ( document.URL.includes("index.html") ) {
+
+  document.getElementById('home-section').focus();
+
+    var typed = new Typed('.element', {
+    strings: ["Graphic Designer.", "Web Designer.", "Web Developer."],
+    typeSpeed: 120,
+    backSpeed: 50,
+    loop: true,
+    loopCount: Infinity
+  });
+
+}
+
+// $(document).ready(function() {
+  
+// }); 
+
+// GALLERY ----------------------------------------------------
+
+$('.filter-button').on('click', (e) => {
+  const filter = $(e.target).attr('data-filter');
+  console.log(filter);
+  const items = $('.item-content').parent();
+  for (item of items) {
+    if (filter == '') {
+      
+      $(item).addClass('animated zoomIn faster');
+      $(item).parent().addClass('animated zoomIn faster');
+      $(item).removeClass('d-none');
+      $(item).parent().removeClass('d-none');
+      
+     
+      console.log('x');
+    } else if ($(item).attr('data-category') == filter) {
+      $(item).addClass('animated zoomIn faster');
+      $(item).parent().addClass('animated zoomIn faster');
+      $(item).removeClass('d-none');
+      $(item).parent().removeClass('d-none');
+    } else {
+      $(item).addClass('d-none');
+      $(item).parent().addClass('d-none');
+      $(item).removeClass('animated zoomIn faster');
+      $(item).parent().removeClass('animated zoomIn faster');
+    }
+  }
+});
+
+// GALLERY END ----------------------------------------------------
+
+
