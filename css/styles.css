@@ -105,9 +105,9 @@ body {
 
 /* SKILLS SECTION ----------------------------------------------------- */
 
-
 .skills-container {
 	padding: 7% 12%;
+	padding-top: 75.281px;
 }
 
 .skill-container {
@@ -162,10 +162,116 @@ body {
 	padding-top: 10px;
 }
 
+/* PROJECTS SECTION ----------------------------------------------------- */
 
+.projects-container {
+	padding: 7% 12%;
+	background-color: #0F4C59;
+}
 
+.projects-container h1 {
+	color: white;
+}
 
+.projects-container h3 {
+	padding-top: 12px;
+	color: #39A2DB;
+	font-size: 20px;
+	font-weight: 500;
+}
 
+.project-container {
+	text-align: center;
+}
+
+.icon-projects {
+	color: white;
+}
+
+.button-projects {
+	border-style: none;
+	margin: 12px 30px 50px;
+	border: 2px solid white;
+	border-radius: 25px;
+	padding: 4px 20px;
+	font-weight: 500;
+	color: white;
+	background-color: transparent;
+}
+
+.button-projects:hover {
+	background-color: white;
+	color: #0F4C59 ;
+	font-weight: 600;
+}
+
+/* CONTACT SECTION ----------------------------------------------------- */
+
+.contact-container {
+	padding: 7% 12%;
+	text-align: center;
+}
+
+.logo-contact {
+	height: 120px;margin-bottom: 25px;
+}
+
+.contact-container p {
+	font-weight: 500;
+	font-size: 20px;
+	color:  #0F4C59;
+	padding-bottom: 15px;
+}
+
+input {
+	width: 100%;
+	padding: 2% 4%;
+	margin-bottom: 15px;
+	border-style: none;
+	background-color: #00434E;
+	opacity: 50%;
+	border-radius: 5px;
+	color: white;
+}
+
+textarea {
+	width: 100%;
+	padding: 2% 4%;
+	border-style: none;
+	background-color: #00434E;
+	opacity: 50%;
+	border-radius: 5px;
+	color: white;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.button-contact {
+	border-style: none;
+	margin: 18px 30px 15px;
+	border: 2px solid #0F4C59;
+	border-radius: 25px;
+	padding: 4px 20px;
+	font-weight: 600;
+	color: #0F4C59;
+	background-color: transparent;
+}
+
+.button-contact:hover {
+	background-color:  #0F4C59;
+	color: white ;
+	font-weight: 600;
+}
+
+/* FOOTER SECTION ----------------------------------------------------- */
+
+.footer-container {
+	background-color: #0F4C59;
+	height: 60px;
+}
 
 
 
