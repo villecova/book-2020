@@ -48,9 +48,9 @@
 
 			      <ul class="navbar-nav ms-auto">
 			     
-			        <li class="nav-item"><a href="#" class="nav-link main-menu">Home</a></li>
-			        <li class="nav-item"><a href="#projects-section" class="nav-link main-menu"><i class="far fa-folder-open icon-folder"></i> Projects</a></li>
-			        <li class="nav-item"><a href="#contact-section" class="nav-link main-menu">Contact</a></li>
+			        <li class="nav-item"><a href="../index.html" class="nav-link main-menu">Home</a></li>
+			        <li class="nav-item"><a href="../pages/graphic-design-projects.html" class="nav-link main-menu"><i class="far fa-folder-open icon-folder"></i> Projects</a></li>
+			        <li class="nav-item"><a href="../index.html#contact-section" class="nav-link main-menu">Contact</a></li>
 
 			      </ul>
 
@@ -63,18 +63,10 @@
 			
 				<h1 class="title">Projects</h1>
 
-				<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="false">
-				  <div class="carousel-inner">
-				    <div class="carousel-item active">
-				     <a href=""><button class="projects-button btn active">Graphic Design</button></a>
-				    </div>
-				    <div class="carousel-item">
-				      <a href="../pages/web-dev-projects.html"><button class="projects-button btn">Web Development</button></a>
-				    </div>
-				    <div class="carousel-item">
-				      <a href=""><button class="projects-button btn">App Development</button></a>
-				    </div>
-				  </div>
+				<div class="btn-group">
+					<a href="../pages/graphic-design-projects.html" class="btn active" aria-current="page">Graphic <span>Design</span></a>
+				  	<a href="../pages/web-dev-projects.html" class="btn" >Web <span>Development</span></a>				  
+				 	<a href="../pages/app-dev-projects.html" class="btn">App <span>Development</span></a>
 				</div>
 
 				<!-- <div class="projects-buttons-container">
@@ -86,11 +78,11 @@
 				
 					<div class="filter filter-basic">
 
-					  <div class="filter-nav">
-					    <button class="btn btn-success active filter-button" data-filter="">All</button>
-					    <button class="btn btn-primary filter-button" data-filter="nature">Nature</button>
-					    <button class="btn btn-primary filter-button" data-filter="food">Food</button>
-					    <button class="btn btn-primary filter-button" data-filter="architecture">Architecture</button>
+					  <div class="filter-nav filter-container">
+					    <button class="btn filter-button" data-filter="">All</button>
+					    <button class="btn filter-button" data-filter="nature">Nature</button>
+					    <button class="btn filter-button" data-filter="food">Food</button>
+					    <button class="btn filter-button" data-filter="architecture">Architecture</button>
 					  </div>
 
 					  <div class="filter-gallery">
