@@ -45,7 +45,19 @@ if ( document.URL.includes("index.html") ) {
   
 // }); 
 
-// GALLERY ----------------------------------------------------
+// GALLERY MODAL ----------------------------------------------------
+
+function switchStyle() {
+  if (document.getElementById('styleSwitch').checked) {
+    document.getElementById('gallery').classList.add("custom");
+    document.getElementById('exampleModal').classList.add("custom");
+  } else {
+    document.getElementById('gallery').classList.remove("custom");
+    document.getElementById('exampleModal').classList.remove("custom");
+  }
+}
+
+// GALLERY TAGS ----------------------------------------------------
 
 $('.filter-button').on('click', (e) => {
   const filter = $(e.target).attr('data-filter');
