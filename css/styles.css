@@ -277,7 +277,7 @@ textarea {
 
 /* PAGES SECTION ----------------------------------------------------- */
 
-/* Graphic Design */
+/* Graphic Design ---------------------------- */
 
 .gd-home-container {
 	background-color: white;
@@ -348,17 +348,25 @@ textarea {
 }
 
 
-/* Web Development */
+/* Web Development ----------------------------- */
+
+.subtitle-clients {
+	padding-top: 30px;
+}
 
 .cards-container {
-	text-align: center;
+	/*text-align: center;*/
 	margin: 0;
 	text-align: left;
+	padding: 10px 5px 30px;
+	/*padding-bottom: 30px;
+	padding-top: 10px;*/
 }
 
 .card-body {
-	padding-left: 30px;
-	padding-bottom: 20px;
+	padding: 20px 30px 20px;
+	/*padding-left: 30px;
+	padding-bottom: 20px;*/
 }
 
 .card {
@@ -369,8 +377,16 @@ textarea {
 	display: inline;
 }
 
+.card-title-mentor {
+	padding-bottom:3px;
+}
+
 .card span {
 	padding-left: 5px;
+}
+
+hr {
+	margin: 0;
 }
 
 h6 {
@@ -387,7 +403,7 @@ h6 {
 .card p {
 	font-size: 13px;
 	font-weight: 200;
-	margin-bottom: 8px;
+	margin: 8px 0 0 ;
 }
 
 .card-prototipe-button {
@@ -396,6 +412,7 @@ h6 {
 	background-color: #A2DBFA;
 	border-style: none;
 	font-size: 14px;
+	margin-bottom: 15px;
 }
 
 .card-preview-button {
@@ -410,6 +427,15 @@ h6 {
 	padding-left: 5px;
 	text-decoration: none;
 	color: black;
+}
+
+/* App Development ---------------- */
+
+.download-button {
+	width: 115px;
+	border-style: none;
+	font-size: 14px;
+	padding: 3px 0;
 }
 
 /* MODAL IMG ---------------------------- */
@@ -428,6 +454,54 @@ h6 {
 	border-radius: 8px;
 	object-fit: cover;
 	max-width: 100%;
+}
+
+/* UI Pages ---------------------------- */
+
+
+.ui-home-container {
+	padding: 7% 15%;
+	margin-top: 75.281px;
+}
+
+.ui-desktop {
+	box-shadow: 0px 0px 12px #ccc;
+	width: 100%;
+	margin: 30px 0;
+}
+
+.ui-mobile {
+	margin-top: 30px;
+	justify-content: center;
+}
+
+.img-mob {
+	box-shadow: 0px 0px 12px #ccc;
+	padding: 0;
+	margin: 0 10px 30px 10px;
+	width: 40%;
+	/*width: 25%; ------ for desktop */
+	height: 100%;
+	object-fit: contain;
+}
+
+/* Float Button ---------------------------- */
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0F4C59;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+.my-float{
+	margin-top:22px;
 }
 
 
