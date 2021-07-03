@@ -22,76 +22,78 @@
 //     l.addEventListener('click', () => { bsCollapse.toggle() })
 // })
 
-$("li").on("click", function () {
-  $('.navbar-collapse').collapse('hide');
-});
-
-
-if ( document.URL.includes("index.html") ) {
-
-  document.getElementById('home-section').focus();
-
-    var typed = new Typed('.element', {
-    strings: ["Graphic Designer.", "Web Designer.", "Web Developer."],
-    typeSpeed: 120,
-    backSpeed: 50,
-    loop: true,
-    loopCount: Infinity
-  });
-
-}
 
 // $(document).ready(function() {
-  
-// }); 
 
-// GALLERY MODAL ----------------------------------------------------
+//  MENU COLLAPSE ----------------------------------------------------
 
-function switchStyle() {
-  if (document.getElementById('styleSwitch').checked) {
-    document.getElementById('gallery').classList.add("custom");
-    document.getElementById('exampleModal').classList.add("custom");
-  } else {
-    document.getElementById('gallery').classList.remove("custom");
-    document.getElementById('exampleModal').classList.remove("custom");
+  $("li").on("click", function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+  // TYPED EFFECT & FOCUS HOME SECTION ----------------------------------------------------
+
+  if (document.URL.includes("index.html")) {
+
+    document.getElementById('home-section').focus();
+
+      var typed = new Typed('.element', {
+      strings: ["I'm a Graphic Designer.", "I'm a Web Designer.", "I'm a Web Developer."],
+      typeSpeed: 120,
+      backSpeed: 50,
+      loop: true,
+      loopCount: Infinity
+    });
+
   }
-}
 
-// GALLERY TAGS ----------------------------------------------------
+  // GALLERY MODAL ----------------------------------------------------
 
-$('.filter-button').on('click', (e) => {
-  const filter = $(e.target).attr('data-filter');
-  console.log(filter);
-  const items = $('.item-content').parent();
-  for (item of items) {
-    if (filter == '') {
-      
-      $(item).addClass('animated zoomIn faster');
-      $(item).parent().addClass('animated zoomIn faster');
-      $(item).removeClass('d-none');
-      $(item).parent().removeClass('d-none');
-      
-     
-      console.log('x');
-    } else if ($(item).attr('data-category') == filter) {
-      $(item).addClass('animated zoomIn faster');
-      $(item).parent().addClass('animated zoomIn faster');
-      $(item).removeClass('d-none');
-      $(item).parent().removeClass('d-none');
+  function switchStyle() {
+    if (document.getElementById('styleSwitch').checked) {
+      document.getElementById('gallery').classList.add("custom");
+      document.getElementById('exampleModal').classList.add("custom");
     } else {
-      $(item).addClass('d-none');
-      $(item).parent().addClass('d-none');
-      $(item).removeClass('animated zoomIn faster');
-      $(item).parent().removeClass('animated zoomIn faster');
+      document.getElementById('gallery').classList.remove("custom");
+      document.getElementById('exampleModal').classList.remove("custom");
     }
   }
-});
 
-// GO BACK ----------------------------------------------------
+  // GALLERY TAGS ----------------------------------------------------
 
+  $('.filter-button').on('click', (e) => {
+    const filter = $(e.target).attr('data-filter');
+    console.log(filter);
+    const items = $('.item-content').parent();
+    for (item of items) {
+      if (filter == '') {
+        
+        $(item).addClass('animated zoomIn faster');
+        $(item).parent().addClass('animated zoomIn faster');
+        $(item).removeClass('d-none');
+        $(item).parent().removeClass('d-none');
+        
+       
+        console.log('x');
+      } else if ($(item).attr('data-category') == filter) {
+        $(item).addClass('animated zoomIn faster');
+        $(item).parent().addClass('animated zoomIn faster');
+        $(item).removeClass('d-none');
+        $(item).parent().removeClass('d-none');
+      } else {
+        $(item).addClass('d-none');
+        $(item).parent().addClass('d-none');
+        $(item).removeClass('animated zoomIn faster');
+        $(item).parent().removeClass('animated zoomIn faster');
+      }
+    }
+  });
 
-function goBack() {
-  window.history.back();
-}
+  // GO BACK ----------------------------------------------------
 
+  function goBack() {
+    window.history.back();
+  }
+
+// }); 
 
