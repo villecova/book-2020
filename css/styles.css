@@ -9,7 +9,12 @@ font-family: 'Poppins', sans-serif;
 #A2DBFA
 #E8F0F2
 
+
+style="width: 18rem;"
+
 */
+
+
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -23,6 +28,13 @@ body {
 	padding: 16px 35px;
 	background-color: white;
 }
+	.navbar-brand {
+		padding-bottom: 10px;
+	}
+
+	.nav-item {
+		padding-left: 30px;
+	}
 
 .main-menu {
 	text-align: center;
@@ -275,17 +287,16 @@ textarea {
 	height: 60px;
 }
 
-/* PAGES SECTION ----------------------------------------------------- */
+/* PAGES SECTION ----------------------------------------------------------------------------------------------PAGES SECTION */
 
 /* Graphic Design ---------------------------- */
 
-.gd-home-container {
+.page-home-container {
 	background-color: white;
-	margin-top: 75.281px;
+	margin-top: 72px;
 /*	height: 661px;*/
 	text-align: center;
 	padding: 10% 12%;
-	text-align: center;
 }
 
 .btn-group {
@@ -324,10 +335,10 @@ textarea {
 
 .projects-button {
 	border-style: none;
-	/*margin: 18px 30px 15px;*/
+	margin: 18px 5px 15px;
 	border: 3px solid #0F4C59;
 	border-radius: 25px;
-	padding: 4px 10px;
+	padding: 4px 10px 2px;
 	width: 220px;
 	font-weight: 600;
 	font-size: 18px;
@@ -351,7 +362,7 @@ textarea {
 /* Web Development ----------------------------- */
 
 .subtitle-clients {
-	padding-top: 30px;
+	padding-top: 10px;
 }
 
 .cards-container {
@@ -369,7 +380,12 @@ textarea {
 	padding-bottom: 20px;*/
 }
 
+/*.card-container {
+	margin: 0 15px;
+}*/
+
 .card {
+	width: 18rem;
 	margin: 15px 0;
 }
 
@@ -503,6 +519,313 @@ h6 {
 .my-float{
 	margin-top:22px;
 }
+
+/* ------------------------------------------ MEDIAS ------------------------------------------ */
+
+/* Extra small devices (phones, 600px and down) ------------------------ */
+@media only screen and (max-width: 370px) { 
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) ------------------------ */
+@media only screen and (min-width: 370px) {
+	/* DEFAULT */
+}
+
+/* Medium devices (landscape tablets, 768px and up) ------------------------ */
+@media only screen and (min-width: 768px) {
+
+	.page-home-container {
+	margin-top: 70px;
+	padding: 5% 10%;
+}
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) ------------------------ */
+@media only screen and (min-width: 992px) {
+
+	/* NAVBAR */
+
+
+.navbar {
+	height: 70px;
+	padding: 16px 35px;
+	background-color: white;
+}
+
+	.nav-item {
+		padding-left: 40px;
+	}
+
+	.main-menu {
+		text-align: center;
+		color: #0F4C59 !important;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+		font-size: 1rem;
+		padding: 25px 0;
+
+	}
+
+	
+
+	/* HOME CONTAINER */
+
+.home-container {
+	margin-top: 70px;
+	text-align: left;
+	padding: 8% 15% 7% 18%;
+}
+
+.logo-home {
+	height: 220px;
+	margin-top: 50px;
+}
+
+.home-container h2 {
+	font-size: 35px;
+}
+
+.home-container p {
+	padding: 15px 30px 20px 0;
+	font-size: 15px;
+}
+
+.button-home {
+	margin: 10px 30px 10px 0;
+}
+
+/* SKILLS CONTAINTER ------------------------------------------------ */
+
+.skills-container {
+	padding: 7% 12% 4%;
+	padding-top: 90px;
+}
+
+.skill-container{
+	max-width: 350px;
+}
+
+.row-skills {
+	padding: 0 10% 0 ;
+}
+
+/* PROJECTS SECTION ----------------------------------------------------- */
+
+.projects-container {
+	padding: 15% 12% 3%;
+	background-color: #0F4C59;
+	padding-top: 90px;
+}
+
+.row-projects {
+	padding: 0 10%;
+}
+
+.projects-container h1 {
+	color: white;
+}
+
+.projects-container h3 {
+	padding-top: 18px;
+	font-size: 25px;
+}
+
+.project-container {
+	text-align: center;
+}
+
+.button-projects {
+	margin: 28px 30px 50px;
+}
+
+/* CONTACT SECTION ----------------------------------------------------- */
+
+.contact-container {
+	padding: 7% 12% 4%;
+	text-align: left;
+}
+
+.logo-contact {
+	height: 200px;
+	margin-bottom: 40px;
+}
+
+.logo-contact-section {
+	text-align: center;
+}
+
+.row-contact {
+	padding: 0 10% 0;
+}
+
+.button-contact {
+	margin: 18px 350px 15px 0px;
+}
+
+/* PAGES SECTION ---------------------------------------------------- */
+
+/* GRAPHIC DESIGN ------------------- */
+
+.page-home-container {
+	margin-top: 70px;
+	padding: 5% 8%;
+}
+
+.btn-group a {
+	font-size: 19px;
+	border: 3px solid #0F4C59;
+	width: 300px;
+}
+
+.btn-group span {
+	display: inline-block;
+}
+
+.filter-button {
+	padding: 5px 10px 3px;
+}
+
+.projects-button {
+	padding: 4px 10px;
+}
+
+
+
+/* Web Development ----------------------------- */
+
+.subtitle-clients {
+	padding-top: 30px;
+}
+
+.cards-container {
+	/*text-align: center;*/
+	margin: 0;
+	text-align: left;
+	padding: 10px 5px 30px;
+	/*padding-bottom: 30px;
+	padding-top: 10px;*/
+}
+
+.card-body {
+	padding: 20px 30px 20px;
+	/*padding-left: 30px;
+	padding-bottom: 20px;*/
+}
+
+.card {
+	margin: 15px 0;
+}
+
+.card-title, .card-preview {
+	display: inline;
+}
+
+.card-title-mentor {
+	padding-bottom:3px;
+}
+
+.card span {
+	padding-left: 5px;
+}
+
+hr {
+	margin: 0;
+}
+
+h6 {
+	position: relative;
+	left: 18px;
+	display: list-item;
+	padding-top: 8px;
+}
+
+.built {
+	font-size: 20px;
+}
+
+.card p {
+	font-size: 13px;
+	font-weight: 200;
+	margin: 8px 0 0 ;
+}
+
+.card-prototipe-button {
+	padding: 1%;
+	width: 100px;
+	background-color: #A2DBFA;
+	border-style: none;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+.card-preview-button {
+	padding: 1%;
+	width: 100px;
+	background-color: #39A2DB;
+	border-style: none;
+	font-size: 14px;
+}
+
+.card-preview {
+	padding-left: 5px;
+	text-decoration: none;
+	color: black;
+}
+
+/* App Development ---------------- */
+
+.download-button {
+	width: 115px;
+	border-style: none;
+	font-size: 14px;
+	padding: 3px 0;
+}
+
+/* UI Pages ---------------------------- */
+
+
+.ui-home-container {
+	padding: 4% 15%;
+	margin-top: 72px;
+}
+
+.subtitle-ui {
+	padding-top: 50px;
+}
+
+.img-mob {
+	box-shadow: 0px 0px 12px #ccc;
+	padding: 0;
+	margin: 0 35px 30px 35px;
+	width: 25%; ------ for desktop 
+	height: 100%;
+	object-fit: contain;
+}
+
+
+
+
+} /* FIN */
+
+
+/* XL --------------------------------------------- */
+@media only screen and (min-width: 1200px) {
+
+	.page-home-container {
+		margin-top: 70px;
+		padding: 5% 12%;
+	}
+
+}
+
+
+
+
+
+
+
 
 
 
