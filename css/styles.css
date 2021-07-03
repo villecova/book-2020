@@ -386,7 +386,7 @@ textarea {
 
 .card {
 	width: 18rem;
-	margin: 15px 0;
+	margin: 15px auto;
 }
 
 .card-title, .card-preview {
@@ -715,7 +715,7 @@ h6 {
 }
 
 .card {
-	margin: 15px 0;
+	margin: 0 auto;
 }
 
 .card-title, .card-preview {
@@ -812,6 +812,10 @@ h6 {
 
 /* XL --------------------------------------------- */
 @media only screen and (min-width: 1200px) {
+
+	.card {
+		width: 20rem;
+	}
 
 	.page-home-container {
 		margin-top: 70px;
