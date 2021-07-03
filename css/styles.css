@@ -264,14 +264,28 @@ textarea {
 }
 
 .button-contact {
+	text-decoration: none;
 	border-style: none;
 	margin: 18px 30px 15px;
+	margin-bottom: 0;
 	border: 2px solid #0F4C59;
-	border-radius: 25px;
-	padding: 4px 20px;
+	border-radius: 20px;
+	padding: 4px 15px;
 	font-weight: 600;
 	color: #0F4C59;
 	background-color: transparent;
+}
+
+.button-contact p {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	font-size: 15px;
+}
+
+.button-contact p:hover {
+	background-color:  #0F4C59;
+	color: white ;
+	font-weight: 600;
 }
 
 .button-contact:hover {
@@ -811,7 +825,7 @@ h6 {
 
 
 /* XL --------------------------------------------- */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1600px) {
 
 	.card {
 		width: 20rem;
