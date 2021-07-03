@@ -256,6 +256,7 @@ textarea {
 	opacity: 50%;
 	border-radius: 5px;
 	color: white;
+	margin-bottom: 20px;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -266,29 +267,32 @@ textarea {
 .button-contact {
 	text-decoration: none;
 	border-style: none;
-	margin: 18px 30px 15px;
+	/*margin-top: 50px;*/
 	margin-bottom: 0;
 	border: 2px solid #0F4C59;
 	border-radius: 20px;
 	padding: 4px 15px;
 	font-weight: 600;
 	color: #0F4C59;
-	background-color: transparent;
+	background-color: white;
+
+	-webkit-appearance: none;
+
+}
+
+.button-contact:hover {
+	background-color:  #0F4C59;
+	color: white ;
 }
 
 .button-contact p {
 	margin-bottom: 0;
 	padding-bottom: 0;
 	font-size: 15px;
+	display: inline;
 }
 
 .button-contact p:hover {
-	background-color:  #0F4C59;
-	color: white ;
-	font-weight: 600;
-}
-
-.button-contact:hover {
 	background-color:  #0F4C59;
 	color: white ;
 	font-weight: 600;
@@ -675,7 +679,7 @@ h6 {
 }
 
 .button-contact {
-	margin: 18px 350px 15px 0px;
+	/*margin: 18px 350px 15px 0px;*/
 }
 
 /* PAGES SECTION ---------------------------------------------------- */
