@@ -33,7 +33,8 @@
 
   // TYPED EFFECT & FOCUS HOME SECTION ----------------------------------------------------
 
-  if (document.URL.includes("index.html")) {
+  //.includes
+  if (document.URL("https://villecova.github.io/portfolio/" || "https://villecova.github.io/portfolio/index.html")) {
 
     document.getElementById('home-section').focus();
 
