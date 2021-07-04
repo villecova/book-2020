@@ -33,7 +33,7 @@
 
   // TYPED EFFECT & FOCUS HOME SECTION ----------------------------------------------------
 
-  if (document.URL.includes("index.html" || "portfolio")) {
+  if (document.URL.includes("index.html")) {
 
     document.getElementById('home-section').focus();
 
