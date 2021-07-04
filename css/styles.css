@@ -201,18 +201,18 @@ body {
 	color: white;
 }
 
-.button-projects {
+.projects-button {
 	border-style: none;
 	margin: 12px 30px 50px;
 	border: 2px solid white;
 	border-radius: 25px;
-	padding: 4px 20px;
+	padding: 3px 20px 5px;
 	font-weight: 500;
 	color: white;
 	background-color: transparent;
 }
 
-.button-projects:hover {
+.projects-button:hover {
 	background-color: white;
 	color: #0F4C59 ;
 	font-weight: 600;
@@ -654,8 +654,9 @@ h6 {
 	text-align: center;
 }
 
-.button-projects {
-	margin: 28px 30px 50px;
+.projects-button {
+	margin: 28px 10px 50px;
+	padding: 3px 20px 3px;
 }
 
 /* CONTACT SECTION ----------------------------------------------------- */
