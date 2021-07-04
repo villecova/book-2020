@@ -33,12 +33,14 @@
 
   // TYPED EFFECT & FOCUS HOME SECTION ----------------------------------------------------
 
-  if (document.URL.includes("index.html")) {
+  //.includes
+  if (document.URL("https://villecova.github.io/portfolio/" || "https://villecova.github.io/portfolio/index.html")) {
 
     document.getElementById('home-section').focus();
 
       var typed = new Typed('.element', {
       strings: ["I'm a Graphic Designer.", "I'm a Web Designer.", "I'm a Web Developer."],
+      startDelay: 1000,
       typeSpeed: 120,
       backSpeed: 50,
       loop: true,
