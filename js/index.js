@@ -15,11 +15,10 @@
   // if (document.URL.includes("portfolio" || "index.html")) {
   if (document.URL.includes("index.html")) {
 
-
     // document.getElementById('home-section').focus();
 
       var typed = new Typed('.element', {
-      strings: ["I'm a Graphic Designer.", "I'm a Web Designer.", "I'm a Web Developer."],
+      strings: ["I'm a Graphic Designer.", "I'm a Web Designer.", "I'm a Developer."],
       typeSpeed: 120,
       backSpeed: 50,
       loop: true,
