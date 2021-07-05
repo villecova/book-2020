@@ -201,18 +201,18 @@ body {
 	color: white;
 }
 
-.projects-button {
+.projects-button-home {
 	border-style: none;
 	margin: 12px 30px 50px;
 	border: 2px solid white;
 	border-radius: 25px;
-	padding: 3px 20px 5px;
+	padding: 3px 20px;
 	font-weight: 500;
 	color: white;
 	background-color: transparent;
 }
 
-.projects-button:hover {
+.projects-button-home:hover {
 	background-color: white;
 	color: #0F4C59 ;
 	font-weight: 600;
@@ -708,6 +708,7 @@ h6 {
 
 .projects-button {
 	padding: 4px 10px;
+	margin: 0;
 }
 
 
