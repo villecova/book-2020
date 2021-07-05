@@ -38,7 +38,7 @@ $(document).ready(function() {
   //if (document.URL.includes("portfolio" || "index.html")) {
   if (document.URL.includes("https://villecova.github.io/portfolio/" || "index.html")) {
 
-    document.getElementById('home-section').focus();
+    // document.getElementById('home-section').focus();
 
       var typed = new Typed('.element', {
       strings: ["I'm a Graphic Designer.", "I'm a Web Designer.", "I'm a Web Developer."],
