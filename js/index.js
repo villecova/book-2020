@@ -23,7 +23,7 @@
 // })
 
 
-$(document).ready(function() {
+//$(document).ready(function() {
 
 //  MENU COLLAPSE ----------------------------------------------------
 
@@ -99,5 +99,5 @@ $(document).ready(function() {
     window.history.back();
   }
 
-}); 
+//}); 
 
