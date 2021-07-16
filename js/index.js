@@ -13,7 +13,7 @@
   //.includes
   //https://villecova.github.io/portfolio/
   // if (document.URL.includes("portfolio" || "index.html")) {
-  if (document.URL.includes("index.html")) {
+  if (document.URL.includes("index.html") || document.URL.includes("https://villecova.com")) {
 
     // document.getElementById('home-section').focus();
 
